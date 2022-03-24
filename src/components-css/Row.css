@@ -1,0 +1,46 @@
+img{
+    display: block;
+}
+
+.poster_row h3{
+    color: white;
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+
+.movie_list{
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.movie_list::-webkit-scrollbar{
+    -webkit-appearance: none;
+    width: 0;
+    height: 0;
+
+}
+
+.movie_list_img{
+    object-fit: contain;
+    width: 30%;
+    max-height: 300px;
+    max-width: 150px;
+    margin-right: 1.3em;
+    transition: transform 200ms linear;
+}
+
+.movie_list_img:hover{
+    transform: scale(1.07);
+}
+
+.movie_list_img_large{
+    max-height: 200px;
+}
+
+.movie_list_img_large:hover{
+    transform: scale(1.09);
+}

@@ -1,0 +1,47 @@
+.banner{
+    background-color: rgba(0, 0, 0, 0.486);
+    height: 380px;
+    color:white;
+    background-blend-mode: multiply;
+}
+
+.banner_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   
+}
+
+.banner_buttons > button{
+    background-color: rgba(41, 41, 41, 0.63);
+    font-size: .85rem;
+    backdrop-filter: 20%;
+    padding:1em .5em;
+    width: 80px;
+    outline: none;
+    border: none;
+    color: white;
+    margin-right: 1em;
+    cursor: pointer;
+    transition: all 200ms linear;
+    border-radius: 5px;
+}
+
+.banner_buttons > button:hover{
+    background-color: rgb(240, 240, 240);
+    color: black;
+}
+
+.banner_overview{
+    line-height: 1.4;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 90%;
+    height: fit-content;
+    max-width: 450px;
+}
+
+.movie_info_container{
+    margin-top: 5.5em;
+    height: 60%;
+}
